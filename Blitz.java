@@ -354,15 +354,6 @@ public class Blitz extends JPanel
         	  int x, y, s;
         	  int tempSpeed = game.speed;
         	  
-        	  // pause game - breaks otherwise
-        	  game.speed = 2000;
-        	  try {
-  				Thread.sleep(1);
-  			} catch (InterruptedException e1) {
-  				// TODO Auto-generated catch block
-  				e1.printStackTrace();
-  			}
-        	  
         	  // get current values for relaunch
         	  try
         	  {
@@ -390,6 +381,15 @@ public class Blitz extends JPanel
         	  {
         		  s = game.size*x;
         	  }
+        	  
+        	// pause game - breaks otherwise
+        	  game.speed = 2000;
+        	  try {
+  				Thread.sleep((x*y)/700);
+  			} catch (InterruptedException e1) {
+  				// TODO Auto-generated catch block
+  				e1.printStackTrace();
+  			}
         	  
         	  s /= x;
         	  game.WIDTH = s*x + 14;
