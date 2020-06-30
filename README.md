@@ -12,7 +12,7 @@ How the cells interact:
 - Once a cells main value reaches 255, it starts to die.
 - Even though cells grow their values when being surrounded by same colored cells, once a cell starts to die, the only thing that will      keep it alive is the presence of a different colored cell.
 
-What the parameters do:
+What the parameters do.
 MIX:
 Mix is a value that is multiplied to the amount of color a cell gets from a different colored cell. If a blue cell is next to a red cell and has high mix, it will recieve a lot more red that if it had also been a red cell. Likewise, a negative mix would mean the presence of red tot he bule cell actually decreases the amount of red recieved by the blue cell.
 
