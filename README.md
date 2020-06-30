@@ -15,7 +15,7 @@ How the cells interact:
 What the parameters do:
 
 MIX:
-Mix is a value that is multiplied to the amount of color a cell gets from a different colored cell. If a blue cell is next to a red cell and has high mix, it will recieve a lot more red that if it had also been a red cell. Likewise, a negative mix would mean the presence of red tot he bule cell actually decreases the amount of red recieved by the blue cell.
+Mix is a value that is multiplied to the amount of color a cell gets from a different colored cell. If a blue cell is next to a red cell and has high mix, it will recieve a lot more red than if it had also been a red cell. Likewise, a negative mix would mean the presence of red to the bule cell actually decreases the amount of red recieved by the blue cell.
 
 DRAIN:
 Drain is a value multiplied to the amount of color lost due to the neighboring of an empty cell. If a neighboring cell has no color, a high drain will subtract a lot of all colors from the current cell. A negative drain will add all colors to the cell in the presence of an empty cell.
